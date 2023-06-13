@@ -46,7 +46,7 @@ const Body = () => {
         </button>
       </div>
       <div class="flex flex-wrap max-w-[1300px]  mx-auto justify-center  items-center gap-5 ">
-        {filterCards.map((card) => {
+        {filterCards?.map((card) => {
           return (
         
         
